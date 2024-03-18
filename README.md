@@ -56,6 +56,7 @@
 
 ![UI](/assets/vite.png)
 2. Specify the time range and query the distinct queries.
+
 3. Results will be displayed on the frontend.
 
 ##### Note: You can also use Postman to test the API endpoints.
