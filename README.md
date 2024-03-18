@@ -9,11 +9,13 @@
 1. Clone the repository:
 
         git clone https://github.com/PravinKanth/HPE-Assignment.git
+   Then,
+   
         cd flask
 
    ##### Add the "hn_logs.tsv" file inside the flask folder (MUST)   
 
-2. Install Python dependencies using Pipenv:
+3. Install Python dependencies using Pipenv:
     *Note:* If you don't have pipenv, install it using the following command first:
 
         pip install pipenv
@@ -22,11 +24,11 @@
 
         pipenv install
 
-3. Activate the virtual environment:
+4. Activate the virtual environment:
 
         pipenv shell
 
-4. Run the backend server:
+5. Run the backend server:
 
         flask run
 
