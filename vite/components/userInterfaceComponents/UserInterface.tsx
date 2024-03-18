@@ -86,6 +86,11 @@ const UserInterface = () => {
         else if(response.data.data==="Server Error!!"){
             toast.error(`Server Error!!`)   
         }
+
+
+        else if (response.data.data==="0"){
+            toast.error(`Kindly check the file y'attached!! `)  
+        }
         else{
             toast.success(`You have ${response.data.data} records`)   
         }

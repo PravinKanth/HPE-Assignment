@@ -71,7 +71,7 @@ Here are some example endpoints to test the application:
     Python and Flask were chosen for the backend due to their simplicity and ease of use. React with Vite, TypeScript and SCSS were chosen for the frontend to leverage modern web development practices and enhance developer productivity. (You know, vite leverages native ES modules, making the application faster compared to React with webpack)
 
 - #### Data Structure: 
-    A set was used to store unique queries within a time range, as it provides constant-time complexity for both insertion and lookup operations. This ensures efficient processing, especially for large log files.
+    A dictionary (`defaultdict`) was utilized to organize logs based on timestamps, mapping each timestamp to a set of unique logs. This combination of dictionary and set provides efficient insertion and lookup operations, ensuring efficient processing, particularly advantageous for handling large log files.
 
 - #### File Handling: 
     The backend can handle both static and dynamic log files with the same format. For static files, reading the entire file into memory during startup ensures fast query processing. For dynamic files, the application can be easily modified to handle real-time updates by prompting users to upload files in the frontend.
