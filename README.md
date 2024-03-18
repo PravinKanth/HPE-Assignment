@@ -16,6 +16,7 @@
    ##### Add the "hn_logs.tsv" file inside the flask folder (MUST)   
 
 3. Install Python dependencies using Pipenv:
+   
     *Note:* If you don't have pipenv, install it using the following command first:
 
         pip install pipenv
@@ -24,11 +25,11 @@
 
         pipenv install
 
-4. Activate the virtual environment:
+5. Activate the virtual environment:
 
         pipenv shell
 
-5. Run the backend server:
+6. Run the backend server:
 
         flask run
 
